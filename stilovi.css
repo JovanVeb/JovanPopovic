@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+
+ul.navbar-nav>li>a{
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+ul.navbar-nav>li.nav-item.dropdown>.dropdown-menu>li>a{
+    letter-spacing: 0.15rem;
+}
+
+section{
+    margin-top: 2rem;
+}
+
+.list-unstyled li{
+    padding: 1.5rem;
+    border: 1px solid #d9534f;
+}
+
+.list-unstyled li{
+    text-decoration: none;
+    color:black;
+}
+
+.list-unstyled li a:hover{
+    color: #323232;
+}
+
+
+/*KARTICE*/
+#i_kartice{
+    border: 1px solid blue !important;
+}
+
+/*#proiz_kartice{
+    border: 3px solid orange;
+}*/
+
+
+
+
+#footerlink{
+    text-decoration: none;
+}
+
+#onamatekst{
+    font-size: 20px;
+}
+
+
+body.lb-disable-scrolling {
+    overflow: hidden;
+}
+
+
+#glr{
+    height: 250px;
+    width: 450px;
+    box-shadow: 5px 5px 10px #030d9b
+}
+
+
+
+/*borak radio*/
+/*logo napravi pisani tekst*/
+/*mt-3 = margin top 3*/
+/*pt-3 pb-3 ps-3 ... padding*/
+/*kad ima . onda je klasa (.primarna-boja)*/
+
+/*uglavnom pocetna*/
+.primarna-boja{
+    color: #e36414 !important;
+}
+.sekundarna-boja{
+    background-color: #ffff !important;
+}
+.primarni-tekst, .primarni-tekst.a, .primarni-tekst.a:hover{
+    color: white;
+}
+.sekundarni-tekst{ /*samo kop bez .*/
+    color: black;
+}
+
+.active, .social-media:hover{
+    color: rgb(25, 0, 92) !important;
+    background-color: rgba(11, 23, 126, 0.712) !important; /*background-color: aqua !important;*/
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.card{
+    border: 1px solid blue !important; /*sekundarna boja*/ /*kad trebam da nadjacam bootstrap stavim !important*/
+}
+
+.btn.sekundarna-boja:hover{
+    background-color: aqua; /*sekundarna malo drugacija*/
+}
+
+/*r{
+    color: black;
+    border: 2px solid black;
+}*/
+
+#linija{
+    border: 2px solid #04066d;
+}
+
+
+
+
+/*onana*/
+
+.my-title{
+    background-color: blue;
+    padding: 0 0.3rem;
+}
+
+input.focus, textarea.focus{ /*unos ime i prezime box*/
+    box-shadow: 0 0 0 0.25rem rgba(53,76,42,.53) !important;
+    border: 1px solid black;
+}
+
